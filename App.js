@@ -6,7 +6,7 @@ function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState([]);
   const [score, setScore] = useState(0);
-  const [timer, setTimer] = useState(60); // Timer in seconds
+  const [timer, setTimer] = useState(10); // Timer in seconds
 
   useEffect(() => {
     // Fetch questions and answer choices from the API
